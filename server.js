@@ -10,3 +10,9 @@ const Routes = require("./server/routes/animals.route");
 Routes(app);
 
 app.listen(port, () => console.log(`Express running on port ${port}`));
+
+
+// npx create-react-app zoo-api
+// npm i mongoose express
+// npm i -g nodemon
+// nodemon server.js
